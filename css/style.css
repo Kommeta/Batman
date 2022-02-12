@@ -1,0 +1,78 @@
+*, *::before, *::after {
+box-sizing: border-box;
+}
+*:focus:not(:focus-visible) {
+    outline: none;
+}
+html, body {
+font-size: 62.5%; /*=10px*/
+}
+body{
+    background: url('../img/background.jpg');
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    padding: 6.4rem 0rem;
+}
+.container{
+    width: 113.5rem; 
+    margin: 0 auto;
+}
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    width: 7.9rem;
+    height: 2.8rem;
+    margin-right: 3.9rem;
+}
+/*задаеи свойство всем элементам кроме последнего*/
+.header-nav a:not(:last-child) { 
+    margin-right: 2.4rem;
+}
+.header-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.header-socials {
+}
+.header-cocials-icon:not(:last-child) { 
+    margin-right: 2rem;
+}
+.header-cocials-icon {
+    width: 1.7rem;
+    height: 1.6rem;
+}
+/*---------------------footer---------------*/
+.footer {
+    background: #030102;
+    color: #fff;
+    padding: 2rem 0rem;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-copy {
+}
+.footer-menu {
+    display: flex;
+    padding: 0rem;
+    color: #fff;
+}
+.footer-menu li{
+    list-style: none;
+}
+.footer-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-menu li:not(:last-child) { 
+    margin-right: 2.5rem;
+}
