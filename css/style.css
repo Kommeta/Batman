@@ -4,8 +4,12 @@ box-sizing: border-box;
 *:focus:not(:focus-visible) {
     outline: none;
 }
-html, body {
-font-size: 62.5%; /*=10px*/
+html, 
+body {
+    font-size: 62.5%; /*=10px*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #fff;
 }
 body{
     background: url('../img/background.jpg');
@@ -38,6 +42,9 @@ body{
 .header-nav a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 114%;
+
 }
 .header-socials {
 }
@@ -51,7 +58,6 @@ body{
 /*---------------------footer---------------*/
 .footer {
     background: #030102;
-    color: #fff;
     padding: 2rem 0rem;
 }
 .footer .container {
@@ -60,11 +66,12 @@ body{
     align-items: center;
 }
 .footer-copy {
+    font-size: 1.4rem;
+    line-height: 143%;
 }
 .footer-menu {
     display: flex;
     padding: 0rem;
-    color: #fff;
 }
 .footer-menu li{
     list-style: none;
@@ -72,6 +79,9 @@ body{
 .footer-menu li a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 143%;
+
 }
 .footer-menu li:not(:last-child) { 
     margin-right: 2.5rem;
